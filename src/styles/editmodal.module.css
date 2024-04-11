@@ -1,0 +1,27 @@
+.shadow {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.418);
+}
+
+.hero {
+	background-color: #303030;
+
+	/* THIS IS GENIUS APPLY THIS EVERYWHERE */
+	/* AT THE FREEDOM WALL */
+
+	width: 100%;
+	max-width: 600px;
+
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

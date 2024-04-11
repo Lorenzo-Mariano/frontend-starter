@@ -1,0 +1,55 @@
+.todoWrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+
+	max-width: 600px;
+	margin: 1rem auto;
+	padding: 1rem;
+
+	background-color: #fff;
+	box-shadow: #64646f33 0px 7px 29px 0px;
+}
+
+.details {
+	display: flex;
+	flex-direction: column;
+
+	gap: 0.5rem;
+}
+
+.title {
+	font-size: 24px;
+}
+
+.description {
+	white-space: pre-line;
+}
+
+.buttons {
+	display: flex;
+	flex-wrap: wrap;
+
+	gap: 1rem;
+}
+
+.button {
+	flex: 1 200px;
+	padding: 0.5rem;
+	transition: filter 0.2s ease-in-out;
+	color: #fff;
+	font-weight: 600;
+	transition: box-shadow 0.3s ease;
+}
+
+.button:hover {
+	box-shadow: #00000059 0px 5px 15px;
+}
+
+.edit {
+	background-color: #60a1ec;
+}
+
+.finish {
+	background-color: #73bb79;
+}

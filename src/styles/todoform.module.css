@@ -1,0 +1,57 @@
+.formWrapper {
+	display: flex;
+	flex-direction: column;
+
+	padding: 1rem;
+	max-width: 600px;
+	margin: auto auto;
+
+	background-color: #fff;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+
+	gap: 1rem;
+	margin: 1rem 0;
+}
+
+.error {
+	font-weight: 500;
+	color: #ff6f6f;
+}
+
+.success {
+	font-weight: 500;
+	color: #07a83d;
+}
+
+.input {
+	font-size: 1rem;
+	padding: 0.5rem;
+	resize: none;
+}
+
+.description {
+	min-height: 200px;
+}
+
+.buttons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.button {
+	flex: 1 200px;
+	padding: 0.5rem;
+	background-color: #87ceeb;
+
+	transition: filter 0.2s ease-in-out;
+}
+
+.button:hover {
+	filter: brightness(1.1);
+}
